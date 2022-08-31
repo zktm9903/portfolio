@@ -7,6 +7,8 @@ import { ReactComponent as Tailwindcss } from './skills/tailwindcss.svg';
 import { ReactComponent as Styledcomponents } from './skills/styledcomponents.svg';
 import { ReactComponent as ReactIcon } from './skills/react.svg';
 import { ReactComponent as Redux } from './skills/redux.svg';
+import { ReactComponent as Eslint } from './skills/eslint.svg';
+import { ReactComponent as Prettier } from './skills/prettier.svg';
 import { ReactComponent as Git } from './skills/git.svg';
 import { ReactComponent as Github } from './skills/github.svg';
 
@@ -44,6 +46,14 @@ const SkillIcons = [
   <Redux
     fill={defultColor}
     className="w-10/12 ease-in-out duration-300 hover:fill-current hover:text-redux hover:w-full"
+  />,
+  <Eslint
+  fill={defultColor}
+  className="w-10/12 ease-in-out duration-300 hover:fill-current hover:text-eslint hover:w-full"
+  />,
+  <Prettier
+    fill={defultColor}
+    className="w-10/12 ease-in-out duration-300 hover:fill-current hover:text-prettier hover:w-full"
   />,
   <Git
     fill={defultColor}
