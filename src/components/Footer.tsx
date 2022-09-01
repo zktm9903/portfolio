@@ -3,8 +3,8 @@ import { AiFillGithub } from 'react-icons/ai';
 
 function Footer() {
   return (
-    <div className="flex justify-center w-screen bg-neutral-200">
-      <div className="flex flex-col justify-center items-center w-[70rem] h-64">
+    <div className="flex justify-center w-full bg-neutral-200">
+      <div className="flex flex-col justify-center items-center w-[calc(100vw_-_50px)] max-w-[70rem] h-64">
         <a
           href="https://github.com/zktm9903"
           target="_blank"
